@@ -5,18 +5,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="./assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <style>
-        .parallax-container {
-            height: 800px;
-        }
-    </style>
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <div class="parallax-container">
-        <div class="parallax"><img src="./assets/images/brewery-1.jpg" style="display: block; transform: translate3d(-50%, 100px, 0px);"></div>
+        <div class="parallax"><img src="./assets/images/brewery-1.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
     </div>
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
@@ -40,16 +36,15 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="./assets/images/brewery-2.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
+        <div class="parallax"><img src="./assets/images/brewery-2.jpg" style="display: block; transform: translate3d(-50%, 250px, 100px);"></div>
     </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.parallax').parallax();
-        });
-    </script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8N2RbX-Zo1H3MgFsPQbHifs0mL0UFqY8&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8N2RbX-Zo1H3MgFsPQbHifs0mL0UFqY8&callback=initMap" async defer></script>
+
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
